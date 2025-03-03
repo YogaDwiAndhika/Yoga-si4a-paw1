@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Element selector */
+body{
+    background-color:aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+P{
+    color: yellow;
+}
+
+h1, h2, h3{
+    color:brown;
+}
+
+h1{
+    text-align: center;
+    margin: 2px;
+}
+
+/* class selector */
+.bg-warning{
+    background-color: yellow;
+}
+
+.text-success{
+    color: green;
+}
+
+/* id selector */
+#h5{
+    color : blue;
+}
+
+a{
+    text-decoration: none;
+    color: green;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.rounded{
+    border-radius: 20px;
+}
+
+/* form */
+input[type="text"], input[type="date"],textarea,select{
+    width: 60%;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid green;
+    margin: 5px;
+}
+
+button{
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: green;
+    color:white;
+    padding: 7px;
+    width: 60%;
+    margin: 10px;
+}
+/* padding: bagian text ke border */
+/* margin sisi luar */
