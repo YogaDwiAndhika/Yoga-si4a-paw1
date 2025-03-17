@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript</title>
+</head>
+<body>
+    <!-- inline -->
+     <button onclick="alert('Selamat Siang')">Salam</button>
+     <button id="btn">Belajar JS</button>
+     <P id="nama"></P>
+     <p id="umur"></p>
+     <ul id="mahasiswa"></ul>
+     <table>
+        <thread>
+            <tr>
+                <th>Nama</th>
+                <th>Nilai</th>
+            </tr>
+        </thread>
+        <tbody id="nilai"></tbody>
+     </table>
+
+     <ui id="quotes"></ui>
+
+    <!-- internal -->
+     <script>
+        const btn = document.getElementById('btn');
+        btn.onclick = function (){
+            alert('Selamat belajar Javascript')
+        }
+     </script>
+
+    <!-- external -->
+     <script src="script.js"></script>
+</body>
+</html>
