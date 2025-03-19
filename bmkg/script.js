@@ -25,12 +25,14 @@ fetch("https://data.bmkg.go.id/DataMKG/TEWS/gempaterkini.json")
     data.Infogempa.gempa.forEach( (list) => {
         console.log(list);
         document.getElementById("gempabumi15").innerHTML +=`
-            <div class="card p-5 col-lg-4">
+            <div class="col-lg-4 p-3">
+            <div class="card p-3">
                 <p>Wilayah: ${list.Wilayah}</p>
                 <p>Waktu : ${list.Tanggal} ${list.Waktu}</p>
                 <p>Magnitude : ${list.Magnitude}</p>
                 <p>Kedalaman : ${list.Kedalaman}</p>
                 <p>Potensi : ${list.Potensi}</p>
+            </div>
             </div>
         `;
     })
